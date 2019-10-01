@@ -1,0 +1,1 @@
+protoc -I . grpcTest.proto --go_out=plugins=grpc:grpcTest/
